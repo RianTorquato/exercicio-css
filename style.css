@@ -1,0 +1,76 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(202, 33, 33);
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a h1 {
+  margin-left: 200px;
+  color: black;
+}
+
+header li {
+  display: inline;
+  text-decoration: none;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+header li a {
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+/*entretenimento*/
+
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.artigos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.artigos article {
+  width: 30%;
+  margin-bottom: 16px;
+}
+
+.artigos article img {
+  width: 100%;
+}
+section {
+  padding: 46px 0;
+}
+
+section h2 {
+  margin-bottom: 40px;
+}
+
+section h3 {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+
+#Tecnologia {
+  background-color: aqua;
+}
+
+#entretenimento {
+  background-color: aquamarine;
+}
